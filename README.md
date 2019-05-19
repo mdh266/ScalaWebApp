@@ -1,7 +1,8 @@
-# Hello World Scala Web App
+# ScalaWebApp
 ---------------------------
 
-A simple Hello World App written in Scala
+A simple Hello World App written in Scala using Scalatra
+
 
 ## Dependencies
 ----------------
@@ -14,16 +15,20 @@ A simple Hello World App written in Scala
 
 ##  Using
 ------------
+Run the following commands:
 
-1. mvn compile
+1. `mvn compile`
 
-2. mvn jetty:run
+2. `mvn jetty:run`
 
-3. In web-browser go to http://localhost:8080 to see the page:
+Then in a web-browser go to http://localhost:8080 to see the page:
+
 
 ![](images/world.png)
 
+
 When you put in a name and click on the square results in:
+
 
 ![](images/mike.png)
 
