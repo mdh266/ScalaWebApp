@@ -19,5 +19,12 @@ A simple Hello World App written in Scala
 
 2. mvn jetty:run
 
-3. In web-browser go to http://localhost:8080
+3. In web-browser go to http://localhost:8080 to see the page:
+
+![](images/world.png)
+
+When you put in a name and click on the square results in:
+
+![](images/mike.png)
+
 
