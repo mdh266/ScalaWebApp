@@ -5,8 +5,7 @@ import javax.servlet.ServletContext
 
 class ScalatraBootstrap extends LifeCycle {
   override def init(context: ServletContext) {
-    val name : String = "World"
- 	context mount (new HelloApp(name), "/*")
+ 	context mount (new HelloApp(), "/*")
   }
  
 }
